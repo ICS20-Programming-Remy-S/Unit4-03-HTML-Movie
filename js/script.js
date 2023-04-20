@@ -13,7 +13,7 @@ function enterClicked () {
   let userAge = parseInt(document.getElementById("user-age").value);
   
   // Display if the user can see R movies
-  if (userAge >= 17) {
+  if (userAge >= 18) {
     result = "The Tempeture you can go see R rated movies by yourself."
   }
   //Display if the user can go see pg-13 movies
